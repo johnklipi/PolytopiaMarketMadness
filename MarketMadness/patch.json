@@ -1,0 +1,52 @@
+{
+	"improvementData": {
+		"market": {
+			"improvementAbilities": [
+				"+market_marmad"
+			]
+		},
+		"guild_marmad": {
+			"cost": 8,
+			"rewards": [
+				{
+					"population": 2
+				}
+			],
+			"terrainRequirements": [
+				{
+					"terrain": "field"
+				},
+				{
+					"terrain": "forest"
+				},
+				{
+					"terrain": "mountain"
+				}
+			],
+			"improvementAbilities": [
+				"limited"
+			],
+			"maxLevel": 0,
+			"idx": -1,
+			"prefab": true
+		}
+	},
+	"techData": {
+		"basic": {
+			"improvementUnlocks": [
+				"+market"
+			]
+		},
+		"trade": {
+			"improvementUnlocks": [
+				"-market",
+				"+guild_marmad"
+			]
+		}
+	},
+	"improvementAbility": {
+		"market_marmad": {
+			"idx": -1
+		}
+	}
+}

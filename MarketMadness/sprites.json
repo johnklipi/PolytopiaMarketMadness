@@ -1,0 +1,7 @@
+{
+	"guild_marmad": {
+		"pixelsPerUnit": 448,
+		"pivot": [0.5, 0.25],
+		"gaussianBlurRadius": 2.0
+	}
+}
